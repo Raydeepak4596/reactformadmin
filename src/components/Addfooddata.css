@@ -1,0 +1,18 @@
+.form-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+   height: 70vh;
+    margin: auto;
+}
+.form-inner{
+    width: 70%;
+    background-color: aqua;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+input{
+    width: 90%;
+}
