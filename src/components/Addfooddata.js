@@ -68,7 +68,7 @@ const Addfooddata = () => {
                 <input type='text' name='Food price' onChange={(e)=>{setprice(e.target.value)}}></input><br/>
                 <label>Food Image</label>
                 <input type='file' name='food-image' onChange={(e)=>{setfoodimage(e.target.files[0])}}></input><br/>
-                <label>Restaurent Name</label>
+                <label>Restaurent Name & address</label>
                 <input type='text' name='restaurent-name'onChange={(e)=>{setrestaname(e.target.value)}}></input><br/>
                 <input type='submit' name='submit' onClick={handle}></input>
             </form>
